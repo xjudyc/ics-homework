@@ -1,4 +1,6 @@
 import pandas as pd
+import pyecharts.options as opts
+from pyecharts.charts import MapGlobe
 
 path = r"分省年度数据.csv"
 reader = pd.read_csv(path, encoding='gbk')
@@ -19,42 +21,38 @@ c = (
     .render("中国2022各省份GDP.html")
 )
 
-import pyecharts.options as opts
-from pyecharts.charts import MapGlobe
-
-path = r"globalgdp1.csv"
+"""path = r"globalgdp1.csv"
 reader2 = pd.read_csv(path, encoding='gbk')
 sf2= reader2["国家/地区"].values.tolist()
-data2 = reader2["人均GDP(美元)"].values.tolist()
+data2 = reader2["人均GDP(美元)"].values.tolist()"""
 
-data3 = reader2[['国家/地区', '人均GDP(美元)']].values.tolist()
+# data3 = reader2[['国家/地区', '人均GDP(美元)']].values.tolist()
 
+data3 = [['China','12720'],['Morocco','234317'],['Liechtenstein','184083'],
+         ['Luxembourg','126426'],['Bermuda','118845'],['Norway','106148'],
+         ['Ireland','104038'],['Switzerland','92101'],['Cayman Islands','88475'],
+         ['Qatar','88046'],['Singapore','82807'],['Isle of Man','79530'],
+         ['United States','76398'],['Iceland','72902'],['Denmark','66983'],
+         ['Australia','64491'],['Greenland',' 57116'],['Netherlands','55985'],
+         ['Sweden','55873'],['Canada','54966'],['United Arab Emirates','53757'],['Germany','48432'],
+         ['New Zealand','48249'],['United Kingdom','45850'],['Finland','50536'],
+         ['Austria','52131'],['France','40963'],['Italy ','34157'],
+         ['Japan','33815'],['Korea ','32254'],['Spain','29350'],
+         ['Uruguay','20795'],['Greece','20732'],['Guyana','18989'],
+         ['Poland','18321'],['Russia','15345'],['Argentina','13686'],['Turkey','10616'],]
 data4 = [x for _, x in data3]
 low, high = min(data4), max(data4)
  
 c = (
     Map()
-    .add("", [list(z) for z in zip(sf2,data2)], "world")
+    # .add("", [list(z) for z in zip(sf2,data2)], "world")
+    .add("", data3, "world")
     .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
     .set_global_opts(
         title_opts=opts.TitleOpts(title="世界GDP"),
         visualmap_opts=opts.VisualMapOpts(max_=240000),
     )
     .render("世界GDP.html")
-)
-from pyecharts import options as opts
-from pyecharts.charts import Map
-from pyecharts.faker import Faker
-
-c = (
-    Map()
-    .add("商家A", [list(z) for z in zip(Faker.country, Faker.values())], "world")
-    .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
-    .set_global_opts(
-        title_opts=opts.TitleOpts(title="Map-世界地图"),
-        visualmap_opts=opts.VisualMapOpts(max_=200),
-    )
-    .render("map_world.html")
 )
 
 # dict1 = dict(zip(sf2, data2))
