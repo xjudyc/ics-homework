@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<form action="https://www.bing.com/search" method="get">
+			<input type="text" name="q">
+			<input type="submit" value="启动！" class="submit-button">
+			<!--点击“提交”按钮后，注意浏览器地址栏的变化-->
+		</form>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: Arial, sans-serif;
+				/* 设置背景图片，将 'local-image.jpg' 替换为你的图片文件名 */
+				background-image: url('https://i1.hdslb.com/bfs/new_dyn/eba699772c2715367bff54a5708f6cb3241796005.jpg@1192w.avif');
+				/* 背景图片覆盖整个容器 */
+				background-size: 100% 100%;
+				/* 背景图片不重复 */
+				background-repeat: no-repeat;
+				/* 背景图片始终在容器的中心 */
+				background-position: center;
+				/* 背景图片固定，不随页面滚动 */
+				background-attachment: fixed;
+			}
+			input[type="text"] {
+				margin-top: 550px;  /* 控制输入框上下位置 */
+				margin-left: 1000px; /* 控制输入框左右位置 */
+				padding: 1px 100px;     /* 控制输入框内部空间 */
+			}
+			.submit-button {
+            background-color: #3e3b5a;
+            color: rgb(202, 203, 201);
+            padding: 1px 2px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+		</style>
+	</body>
+</html>
+
+
