@@ -50,4 +50,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-    theme: THEME-NAME_config.ymljekyll-theme-NAMEtheme: jekyll-theme-minimal
+    theme: jekyll-theme-THEME-NAME
