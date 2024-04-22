@@ -17,6 +17,7 @@
 ### 中国地图、世界地图
 [中国2022各省分GDP](https://github.com/xjudyc/xjudyc.github.io/blob/main/1%E4%BD%9C%E4%B8%9A1%20%E5%9C%B0%E5%9B%BE/%E4%B8%AD%E5%9B%BD2022%E5%90%84%E7%9C%81%E4%BB%BDGDP.html)
 [世界GDP地图](https://github.com/xjudyc/xjudyc.github.io/blob/main/1%E4%BD%9C%E4%B8%9A1%20%E5%9C%B0%E5%9B%BE/%E4%B8%AD%E5%9B%BD2022%E5%90%84%E7%9C%81%E4%BB%BDGDP.html)
+
 1. 中国地图的数据是2022年各省分的GDP总数，数据来源是[国家统计局](https://data.stats.gov.cn/easyquery.htm?cn=E0103)
 学习了读取csv文件制作成列表
 2. 世界地图的数据是近年的世界人均GDP，数据来源是[世界各国人均GDP排名_全球各国人均GDP历年数据_聚汇数据](https://gdp.gotohui.com/word/2)
@@ -26,6 +27,7 @@
 
 ### 组合图表
 [北京天气](https://github.com/xjudyc/xjudyc.github.io/blob/main/1%E4%BD%9C%E4%B8%9A2%20%E5%9B%BE%E8%A1%A8/%E5%8C%97%E4%BA%AC%E5%A4%A9%E6%B0%94.html)
+
 用北京2024-2及一些其他的天气数据制作而成，主要数据来源是[【北京气温】北京市全年各月气温走势统计查询 - 北京历史天气](https://www.tianqi24.com/beijing/history.html?eqid=ee1efa760002855c000000026470ceb2)
 感觉2月份天气好多变，今年甚至下了雪，往年也是，感觉忽高忽低，然后一下就热起来
 做这个主要是因为数据获取方便而且格式很好，比较符合组合图表的适用范围
@@ -35,6 +37,7 @@
 ### 词频统计图
 [人名统计](https://github.com/xjudyc/xjudyc.github.io/blob/main/1%E4%BD%9C%E4%B8%9A3%20%E8%AF%8D%E4%BA%91/%E3%80%8A%E6%82%B2%E6%83%A8%E4%B8%96%E7%95%8C%E3%80%8B%E4%BA%BA%E5%90%8D%E7%BB%9F%E8%AE%A1.html)
 [人名词云](https://github.com/xjudyc/xjudyc.github.io/blob/main/1%E4%BD%9C%E4%B8%9A3%20%E8%AF%8D%E4%BA%91/%E3%80%8A%E6%82%B2%E6%83%A8%E4%B8%96%E7%95%8C%E3%80%8B%E4%BA%BA%E5%90%8D%E8%AF%8D%E4%BA%91.html)
+
 用悲惨世界的文本做了人名的统计，非常喜欢的一本书，做这个主要是想看看雨果写这本书究竟是在干什么（雾）
 做这种小说的词频统计真的心累，不仅是因为人物多次出现的时候可能用其他称呼指代
 >如“主教”一词，在书中大多时候指称“卞福汝主教”，但也有少部分时候会指其他人
