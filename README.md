@@ -15,6 +15,8 @@
 注：也可以⽤其他公开的个⼈主⻚空间，只要能通过⽹址直接访问即可
 
 ### 中国地图、世界地图
+
+[世界地图](https://github.com/xjudyc/xjudyc.github.io/blob/main/1%E4%BD%9C%E4%B8%9A1%20%E5%9C%B0%E5%9B%BE/%E4%B8%AD%E5%9B%BD2022%E5%90%84%E7%9C%81%E4%BB%BDGDP.html)
 1. 中国地图的数据是2022年各省分的GDP总数，数据来源是[国家统计局](https://data.stats.gov.cn/easyquery.htm?cn=E0103)
 学习了读取csv文件制作成列表
 2. 世界地图的数据是近年的世界人均GDP，数据来源是[世界各国人均GDP排名_全球各国人均GDP历年数据_聚汇数据](https://gdp.gotohui.com/word/2)
