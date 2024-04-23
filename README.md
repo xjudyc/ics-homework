@@ -16,7 +16,7 @@
 
 ### 中国地图、世界地图
 [中国2022各省分GDP](https://github.com/xjudyc/xjudyc.github.io/blob/main/1%E4%BD%9C%E4%B8%9A1%20%E5%9C%B0%E5%9B%BE/%E4%B8%AD%E5%9B%BD2022%E5%90%84%E7%9C%81%E4%BB%BDGDP.html)
-[世界GDP地图](https://github.com/xjudyc/xjudyc.github.io/blob/main/1%E4%BD%9C%E4%B8%9A1%20%E5%9C%B0%E5%9B%BE/%E4%B8%AD%E5%9B%BD2022%E5%90%84%E7%9C%81%E4%BB%BDGDP.html)
+[世界GDP地图](/1作业1 地图/世界GDP.html)
 
 1. 中国地图的数据是2022年各省分的GDP总数，数据来源是[国家统计局](https://data.stats.gov.cn/easyquery.htm?cn=E0103)
 学习了读取csv文件制作成列表
